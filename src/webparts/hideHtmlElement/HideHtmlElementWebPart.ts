@@ -48,8 +48,6 @@ export default class HideHtmlElementWebPart extends BaseClientSideWebPart<IHideH
     }
   }
 
-
-
   protected onInit(): Promise<void> {
     return super.onInit();
   }
