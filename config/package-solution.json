@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Hide Html Element",
+    "id": "fdf4608e-bcbc-4cd1-9c7c-b0564b9d283e",
+    "version": "1.0.0.1",
+    "iconPath": "images/hide-page-element.png",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Martin Pyman",
+      "websiteUrl": "https://marnotechnology.com",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Hides a Html element based on an Id"
+      },
+      "longDescription": {
+        "default": "Hide a Html element based on an Id entered into the properties pane"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Hide Html Element Feature",
+        "description": "The feature that activates elements of the hide-html-element solution.",
+        "id": "d75c34f4-0bbe-4887-9036-60ebfd34cb7b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hide-html-element.sppkg"
+  }
+}

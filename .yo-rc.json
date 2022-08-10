@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "hide-html-element",
+    "libraryId": "fdf4608e-bcbc-4cd1-9c7c-b0564b9d283e",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Hide Html Element",
+    "solutionShortDescription": "Hide Html Element description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

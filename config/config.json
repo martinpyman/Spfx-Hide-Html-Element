@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hide-html-element-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hideHtmlElement/HideHtmlElementWebPart.js",
+          "manifest": "./src/webparts/hideHtmlElement/HideHtmlElementWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HideHtmlElementWebPartStrings": "lib/webparts/hideHtmlElement/loc/{locale}.js"
+  }
+}
